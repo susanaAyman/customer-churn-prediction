@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Environment / secrets ---
+.env
+.env.*
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Data (raw/processed data usually shouldn't be versioned) ---
+# Comment these out if the dataset is small and you WANT it in git
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# --- Models (trained model binaries can get large) ---
+models/*.pkl
+models/*.joblib
+models/*.h5
+!models/.gitkeep
+
+# --- Logs / reports outputs ---
+*.log
+reports/figures/*
+!reports/.gitkeep
+
+# --- MLflow / experiment tracking (if used later) ---
+mlruns/

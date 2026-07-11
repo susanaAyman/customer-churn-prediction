@@ -1,0 +1,20 @@
+# --- Day 1: core data science stack ---
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+notebook
+
+# --- Added later (uncomment as the project progresses) ---
+# fastapi
+# uvicorn[standard]
+# streamlit
+# shap
+# xgboost
+# lightgbm
+# pydantic
+# joblib
+# pytest
+# python-dotenv
